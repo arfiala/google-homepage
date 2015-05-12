@@ -6,7 +6,7 @@ body {
     overflow-x: hidden;
 }
 header {	
-	margin: 20px 20px 0 0;
+	margin: 10px 20px 0 0;
 	font-size: 14px;
 	text-align: right;
 }
@@ -50,8 +50,9 @@ header {
 	left:28%;
 	text-align: center;
 }
-	img {
-		height:95px;width:269px;
+img.logo {
+		height:95px;
+		width:269px;
 	}
 
 	input {
@@ -111,4 +112,6 @@ footer {
 		padding-right:30px;
 		float: right;
 	}
+}.round {
+    border-radius: 100%
 }
